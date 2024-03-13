@@ -1,4 +1,4 @@
-# Mistral Telegram Chatbot 🤖
+#  Telegram Chatbot 
 
 ## Overview
 
@@ -14,40 +14,3 @@ This is a chatbot created using Python, Haystack, pydub, and the Hugging Face mo
 
 - Hugging Face Token
 - Telegram Bot Token
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/renuka010/Mistral-Telegram-Bot.git
-    ```
-2. Change into the project directory:
-    ```bash
-    cd Mistral-Telegram-Bot
-    ```
-3. Create and Activate the virtual environment:
-    ```bash
-    python3 -m venv venv  # Create
-    venv\Scripts\activate    # Activate
-    ```
-4. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-5. Create a `.env` file with your Huggingface token and Telegram token:
-    ```
-    HF_API_TOKEN=your_huggingface_token
-    TELEGRAM_BOT_TOKEN=your_telegram_token
-    ```
-6. Run the server:
-    ```bash
-    python chatbot.py
-    ```
-
-## Future Scope
-
-Creating vector-based memory for storing conversation history. (Currently, the project supports only inbuilt memory which can remember only the last 10 conversations from history.)
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please submit a pull request or open an issue with your proposed changes or bug reports.
